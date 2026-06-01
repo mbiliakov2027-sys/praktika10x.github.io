@@ -13,5 +13,13 @@ body {
 .card {
     background: linear-gradient(135deg, #77bb44, #107c10);
     height: 650px;
-    width: 450px;
+    width: 70%px;
+}
+
+.innb {
+
+}
+
+.inb {
+  
 }
