@@ -19,3 +19,14 @@ body {
 p{
   color:white
 }
+.data{
+    width:75%;
+    margin: 10px auto;
+    padding:10px;
+    color:white;
+    font-weight:bold;
+    float:left;
+}
+hr{
+    border:2px, solid white;
+}
