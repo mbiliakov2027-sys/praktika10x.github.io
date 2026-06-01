@@ -1,9 +1,8 @@
 h1{
-  text-align: center;
   font-family: "Press Start 2P";
   color: white;
   font-size: 42px;
-  text-align:center;
+  text-align: center;
   line-height:1.2;
 }
 body{
@@ -12,10 +11,9 @@ body{
 .card{
     float:left;
     background: linear-gradient(135deg, #77bb44 35%, #107c10 100%);
-    width:100%;
+    width:98%;
     height:auto;
-    padding-left:20px;
-    margin-bottom:none;
+    padding-left:10px;
 }
 
 p{
@@ -29,6 +27,11 @@ h5{
 
 hr{
     border:2px, solid white;
+    margin-left: 0;
+    padding-right:7px;
+    margin-top:0;
+    margin-bottom:0;
+    width: 98%;
 }
 .data{
     width:75%;
