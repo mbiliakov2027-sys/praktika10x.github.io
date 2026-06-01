@@ -1,23 +1,34 @@
-h1 {
-  text-align: left;
+h1{
+  text-align: center;
   font-family: "Press Start 2P";
   color: white;
-  font-size: 18px;
-  padding: 15px;
+  font-size: 42px;
+  text-align:center;
+  line-height:1.2;
 }
-
-body {
-  background-color: black;
+body{
+  background-color: #0B161E;
 }
-
-.card {
-    background: linear-gradient(135deg, #77bb44, #107c10);
-    height: 650px;
-    width: 100%;
+.card{
+    float:left;
+    background: linear-gradient(135deg, #77bb44 35%, #107c10 100%);
+    width:100%;
+    height:auto;
+    padding-left:20px;
+    margin-bottom:none;
 }
 
 p{
-  color:white
+    color:white;
+}
+h5{
+    font-family:serif;
+    color:white;
+    font-size:18px;
+}
+
+hr{
+    border:2px, solid white;
 }
 .data{
     width:75%;
@@ -27,6 +38,6 @@ p{
     font-weight:bold;
     float:left;
 }
-hr{
-    border:2px, solid white;
+.sec{
+    background: linear-gradient(90deg, #77bb44 25%, #107c10 100%);
 }
