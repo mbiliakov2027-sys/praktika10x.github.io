@@ -1,8 +1,9 @@
 h1{
+  text-align: center;
   font-family: "Press Start 2P";
   color: white;
   font-size: 42px;
-  text-align: center;
+  text-align:center;
   line-height:1.2;
 }
 body{
@@ -26,7 +27,7 @@ h5{
 }
 
 hr{
-    border:2px, solid white;
+    border:3px, solid white;
     margin-left: 0;
     padding-right:7px;
     margin-top:0;
@@ -42,5 +43,5 @@ hr{
     float:left;
 }
 .sec{
-    background: linear-gradient(90deg, #77bb44 25%, #107c10 100%);
+    background: #171717;
 }
