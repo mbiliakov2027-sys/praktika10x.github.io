@@ -4,6 +4,8 @@ h1{
   color: white;
   font-size: 48px;
   line-height:1.2;
+  
+  text-shadow: 2px 2px 4px black;
 }
 
 h2
@@ -66,7 +68,7 @@ p{
 
 
 hr{
-    border:3px, solid white;
+    border:3px solid white;
     margin-left: 0;
     padding-right:7px;
     margin-top:0;
@@ -141,4 +143,28 @@ hr{
     position: fixed;
     top: 90vh;
     justify-content: center;
+}
+/***********************************/
+.vl {
+  border: none;
+  border-left: 3px solid #000000;
+  height: 100px;
+  margin: 0 auto; 
+  text-align: center;
+}
+
+.imgbig{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    border: 5px solid #000000;
+}
+.imglst{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #000000;
+}
+.imgsml{
+    width: 100px;
+    height: 100px;
 }
