@@ -67,7 +67,9 @@ h4{
 }
 .osn{
   font-family:average-text;
-  background-color: #7681FF;
+  background-color: #98C8FF;
   width: 100%;
   height: 400px;
+  text-align:left;
+  text-align-last: left;
 }
