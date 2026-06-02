@@ -44,6 +44,7 @@ h1 {
   text-align:center;
 }
 .gol{
+  font-family: raleway-text;
   width: 100%;
   height: 50px;
   color: white;
@@ -52,7 +53,10 @@ h1 {
 
 }
 .gla{
+  font-family: bitter-text;
   background-color: #7681FF;
   width: 100%;
   height: 100px;
+  text-align:center;
+  color: white;
 }
