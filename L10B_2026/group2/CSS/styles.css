@@ -10,7 +10,7 @@ h1{
 
 h2
 {
-    font-family: serif; /*Nunito*/
+    font-family: Nunito;
     color: white;
     font-size: 25px;
 }
@@ -33,7 +33,7 @@ h4
 
 h5
 {
-    font-family:serif; /*Nunito*/
+    font-family: Nunito;
     color: white;
     font-size: 20px;
 }
@@ -43,7 +43,7 @@ h6
     text-align: left;
     font-family: "Press Start 2P";
     color: #77BB44;
-    font-size: 25px;
+    font-size: 45px;
 }
 
 body
@@ -55,9 +55,8 @@ body
   padding:0;
 }
 .card{
-    float:left;
     background: linear-gradient(135deg, #77bb44 35%, #107c10 100%);
-    width:98%;
+    width:100%;
     height:auto;
     padding-left:10px;
 }
@@ -73,7 +72,7 @@ hr{
     padding-right:7px;
     margin-top:0;
     margin-bottom:0;
-    width: 98%;
+    width: 100%;
 }
 .data{
     width:75%;
@@ -81,7 +80,6 @@ hr{
     padding:10px;
     color:white;
     font-weight:bold;
-    float:left;
 }
 .sec{
     background: #171717;
@@ -92,19 +90,21 @@ hr{
   right: -260px; 
   width: 20%;
   height: 100vh;
-  background-color: green;
+  
+  background-color: #171717;
+  border: 5px solid #77BB44;
+  
   padding: 20px 10px;
   transition: right 0.3s ease;
-  list-style: none;
   align-items: start;
   box-sizing: border-box;
-  display: flex
+  display: flex;
 }
 
 .nav:hover {
   right: 0;
 }
-.menu-link .inmen {
+.menu .inmen {
   display: block;
   padding: 5px;
   text-align: left; 
@@ -113,13 +113,19 @@ hr{
   font-family: "Press Start 2P", system-ui;
   margin: 0; 
   box-sizing: border-box;
-  list-style-type:none;
+  
   font-size: 25px;
 }
 .menu-link .inmen:hover{
   color: #F5BB47;
 }
-.inmen{
+
+.menu-link{
+  margin-bottom: 50px;
+}
+
+
+.menu-link{
     list-style-type:none;
 }
 .btn:hover {
@@ -145,28 +151,43 @@ hr{
     top: 90vh;
     justify-content: center;
 }
-/***********************************/
-.vl {
-  border: none;
-  border-left: 3px solid #000000;
-  height: 100px;
-  margin: 0 auto; 
+.ai{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #77bb44 35%, #107c10 100%);
+    padding-top:10px;
+    gap:250px
 }
-
 .imgbig{
     width: 250px;
     height: 250px;
     border-radius: 15px;
     border: 5px solid #000000;
 }
+/***********************************/
+.vl {
+    width: 1px;
+    height: 500px;
+    background: #000;
+    border: 0px solid black;
+}
+
+.imgbig{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    border: 5px solid #000000;
+    display: block;
+}
 .imglst{
-    width: 200px;
-    height: 200px;
+    width: 367px;
+    height: 367px;
     border: 5px solid #000000;
 }
 .imgsml{
-    width: 100px;
-    height: 100px;
+    width: 115px;
+    height: 115px;
 }
 
 li{
