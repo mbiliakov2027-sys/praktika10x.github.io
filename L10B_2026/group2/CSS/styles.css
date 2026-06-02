@@ -159,12 +159,6 @@ hr{
     padding-top:10px;
     gap:250px
 }
-.imgbig{
-    width: 250px;
-    height: 250px;
-    border-radius: 15px;
-    border: 5px solid #000000;
-}
 /***********************************/
 .vl {
     width: 1px;
