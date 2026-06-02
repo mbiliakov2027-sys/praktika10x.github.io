@@ -73,3 +73,8 @@ h4{
   text-align-last: left;
   font-family:raleway-text;
 }
+img{
+    width: 100px;
+    height: 100px;
+    float:left;
+}
