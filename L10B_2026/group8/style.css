@@ -35,6 +35,6 @@ h1 {
   height:100px; 
   background-color: #2A3778;
   text-align:left;
-  margin: 0;
-  padding: 0;
+  width: 100%;
+
 }
