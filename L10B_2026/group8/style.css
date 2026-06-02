@@ -28,17 +28,30 @@
 }
 
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+            width: 100%;
+            height: 100%;
+        }
+
 h1 {
    font-family: bitter-text;
 }
 .gol{
-  height:100%; 
+  width: 100%;
+  height: 100px;
   color: white;
   background-color: #2A3778;
   text-align:left;
-  width: 100%;
+
 }
 .gla{
   background-color: #7681FF;
   color: white;
+  width: 100%;
+  height: 100px;
 }
