@@ -47,6 +47,10 @@ h6
 body
 {
   background-color: #000000;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 .card{
     float:left;
@@ -79,4 +83,61 @@ hr{
 }
 .sec{
     background: #171717;
+}
+.nav {
+  position: fixed;
+  margin: 0;
+  right: -260px; 
+  width: 20%;
+  height: 100vh;
+  background-color: green;
+  padding: 20px 10px;
+  transition: right 0.3s ease;
+  list-style: none;
+  align-items: start;
+  box-sizing: border-box;
+  display: flex
+}
+
+.nav:hover {
+  right: 0;
+}
+.menu-link .inmen {
+  display: block;
+  padding: 5px;
+  text-align: right; 
+  color: white;
+  text-decoration: none;
+  font-family: "Press Start 2P", system-ui;
+  margin: 0; 
+  box-sizing: border-box;
+}
+.menu-link .inmen:hover{
+  color: #F5BB47;
+}
+.inmen{
+    list-style-type:none;
+}
+.btn:hover {
+    background-color: grey;
+    transform: translateY(2px);
+}
+
+.btn:active {
+    background-color: darkgrey;
+    transform: translateX(-2px);
+}
+.btn {
+    background-color: #171717;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 3px solid #77BB44;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.1s ease, transform 0.1s ease;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box; 
+    position: fixed;
+    top: 90vh;
+    justify-content: center;
 }
