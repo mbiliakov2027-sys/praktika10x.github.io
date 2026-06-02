@@ -229,6 +229,11 @@ table, th, td
 	border-collapse : collapse;
 }
 
+td
+{
+    padding:10px;
+} 
+
 .horcard
 {
     width:850px;
