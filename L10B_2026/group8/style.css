@@ -16,11 +16,6 @@
   font-style: normal;
 }
 
-.inria-serif-light {
-  font-family: "Inria Serif", serif;
-  font-weight: 300;
-  font-style: normal;
-}
 .inria-serif-text {
   font-family: "Inria Serif", serif;
   font-weight: 400;
@@ -31,21 +26,7 @@
   font-weight: 700;
   font-style: normal;
 }
-.inria-serif-light-italic {
-  font-family: "Inria Serif", serif;
-  font-weight: 300;
-  font-style: italic;
-}
-.inria-serif-regular-italic {
-  font-family: "Inria Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-.inria-serif-bold-italic {
-  font-family: "Inria Serif", serif;
-  font-weight: 700;
-  font-style: italic;
-}
+
 
 h1 {
    font-family: bitter-text;
