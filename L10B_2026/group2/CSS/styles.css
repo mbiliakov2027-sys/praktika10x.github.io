@@ -205,6 +205,7 @@ li{
     height:700px;
     margin: 50px;
     background: linear-gradient(135deg, #77bb44 35%, #107c10 100%);
+	transition: border 0.3s ease, transform 0.3s ease, width 0.5s ease, height 0.5s ease;
 }
 .minicards{
     display:flex;
@@ -240,6 +241,7 @@ td
     height:450px;
     margin: 50px;
     background: linear-gradient(135deg, #77bb44 35%, #107c10 100%);
+	transition: border 0.3s ease, transform 0.3s ease, width 0.5s ease, height 0.5s ease;
 }
 .horcard:hover
 {
