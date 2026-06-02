@@ -42,6 +42,11 @@ h1 {
   font-family: bitter-text;
   color: white;
   text-align:center;
+  margin: 20px;
+}
+h4{
+  font-family: inria-Serif-text;
+  
 }
 .gol{
   font-family: raleway-text;
@@ -50,7 +55,6 @@ h1 {
   color: white;
   background-color: #2A3778;
   text-align:right;
-  margin: 20px;
 }
 .gla{
   font-family: bitter-text;
@@ -60,5 +64,4 @@ h1 {
   text-align:center;
   color: white;
   text-align-last: center;
-  margin: 20px;
 }
