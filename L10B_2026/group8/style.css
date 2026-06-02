@@ -50,7 +50,7 @@ h1 {
   color: white;
   background-color: #2A3778;
   text-align:right;
-
+  margin-top: 20px;
 }
 .gla{
   font-family: bitter-text;
@@ -59,4 +59,6 @@ h1 {
   height: 100px;
   text-align:center;
   color: white;
+  text-align-last: center;
+  margin-top: 20px;
 }
