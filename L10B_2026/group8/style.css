@@ -32,10 +32,13 @@ h1 {
    font-family: bitter-text;
 }
 .gol{
-  height:100px; 
+  height:100%; 
   color: white;
   background-color: #2A3778;
   text-align:left;
   width: 100%;
-
+}
+.gla{
+  background-color: #7681FF;
+  color: white;
 }
