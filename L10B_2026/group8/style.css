@@ -39,8 +39,9 @@ html, body {
         }
 
 h1 {
-   font-family: bitter-text;
+  font-family: bitter-text;
   color: white;
+  text-align:center;
 }
 .gol{
   width: 100%;
@@ -54,5 +55,4 @@ h1 {
   background-color: #7681FF;
   width: 100%;
   height: 100px;
-  text-align:center;
 }
