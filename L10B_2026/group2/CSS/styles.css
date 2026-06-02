@@ -155,6 +155,7 @@ hr{
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
     background: linear-gradient(90deg, #77bb44 35%, #107c10 100%);
     padding-top:10px;
     gap:200px
@@ -200,13 +201,17 @@ li{
 }
 
 .minicard{
-    display:inline-block;
     width:500px;
     height:700px;
     margin: 50px;
     background: linear-gradient(135deg, #77bb44 35%, #107c10 100%);
-    border
 }
+.minicards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
 .minicard:hover{
     border:7px lightgreen solid;
     width:525px;
