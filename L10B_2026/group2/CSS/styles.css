@@ -173,10 +173,11 @@ hr{
     border-radius: 15px;
     border: 5px solid #000000;
     display: block;
+    background: #171717;
 }
 .imglst{
-    width: 367px;
-    height: 367px;
+    width: 330px;
+    height: 330px;
     border: 5px solid #000000;
 }
 .imgsml{
@@ -196,4 +197,20 @@ li{
     height:425px;
     transform: translateY(2px);
     transition: border 0.3s ease, transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+
+.minicard{
+    display:inline-block;
+    width:500px;
+    height:700px;
+    margin: 50px;
+    background: linear-gradient(135deg, #77bb44 35%, #107c10 100%);
+    border
+}
+.minicard:hover{
+    border:7px lightgreen solid;
+    width:525px;
+    height:720px;
+    transform: translateY(2px);
+    transition: border 0.3s ease, transform 0.3s ease, width 0.5s ease, height 0.5s ease;
 }
