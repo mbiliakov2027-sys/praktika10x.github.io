@@ -43,7 +43,7 @@ h6
     text-align: left;
     font-family: "Press Start 2P";
     color: #77BB44;
-    font-size: 45px;
+    font-size: 25px;
 }
 
 body
@@ -107,13 +107,14 @@ hr{
 .menu-link .inmen {
   display: block;
   padding: 5px;
-  text-align: right; 
+  text-align: left; 
   color: white;
   text-decoration: none;
   font-family: "Press Start 2P", system-ui;
   margin: 0; 
   box-sizing: border-box;
   list-style-type:none;
+  font-size: 25px;
 }
 .menu-link .inmen:hover{
   color: #F5BB47;
@@ -150,7 +151,6 @@ hr{
   border-left: 3px solid #000000;
   height: 100px;
   margin: 0 auto; 
-  text-align: center;
 }
 
 .imgbig{
@@ -167,4 +167,11 @@ hr{
 .imgsml{
     width: 100px;
     height: 100px;
+}
+
+li{
+    text-align: left;
+    font-family: "Press Start 2P";
+    color: #77BB44;
+    font-size: 45px;
 }
