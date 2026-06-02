@@ -206,6 +206,7 @@ li{
     height:700px;
     margin: 50px;
     background: linear-gradient(135deg, #77bb44 35%, #107c10 100%);
+    border: 7px solid transparent;
 	transition: border 0.3s ease, transform 0.3s ease, width 0.5s ease, height 0.5s ease;
 }
 .minicards{
@@ -215,7 +216,7 @@ li{
 }
 
 .minicard:hover{
-    border:7px lightgreen solid;
+    border:10px lightgreen solid;
     width:530px;
     height:720px;
     transform: translateY(2px);
@@ -242,11 +243,12 @@ td
     height:450px;
     margin: 50px;
     background: linear-gradient(135deg, #77bb44 35%, #107c10 100%);
+    border: 7px solid transparent;
 	transition: border 0.3s ease, transform 0.3s ease, width 0.5s ease, height 0.5s ease;
 }
 .horcard:hover
 {
-    border:7px lightgreen solid;
+    border:10px lightgreen solid;
     width:850px;
     height:450px;
     transform: translateY(1px);
@@ -258,7 +260,6 @@ td
     justify-content:left;
     justify-content: flex-start;
     align-items: flex-start;
-    /*flex-wrap: wrap;*/
 }
 
 .break {
