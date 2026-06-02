@@ -54,6 +54,7 @@ h4{
   color: white;
   background-color: #2A3778;
   text-align:right;
+  margin: 0 auto;
 }
 .gla{
   font-family: bitter-text;
@@ -63,6 +64,7 @@ h4{
   text-align:center;
   color: white;
   text-align-last: center;
+  margin: 0 auto;
 }
 .osn{
   font-family:average-text;
@@ -72,6 +74,7 @@ h4{
   text-align:left;
   text-align-last: left;
   font-family:raleway-text;
+  margin: 0 auto;
 }
 img{
     width: 100px;
