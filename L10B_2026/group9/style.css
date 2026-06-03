@@ -26,3 +26,6 @@ transition: background-color 0.3s, transform 0.2s;
 background-color: magenta;
 transform: scale(1.03);
 }
+.menu a:hover {
+opacity: 1;
+}
