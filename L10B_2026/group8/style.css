@@ -84,3 +84,9 @@ img{
     height: 100px;
     float:left;
 }
+.card:hover{
+  transform:scale(1.1);
+}
+.card{
+  transition:05s;
+}
