@@ -90,3 +90,6 @@ img{
 .card{
   transition:05s;
 }
+li{
+  padding: 15px;
+}
