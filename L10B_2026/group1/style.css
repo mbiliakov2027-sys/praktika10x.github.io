@@ -369,3 +369,8 @@ p {
     font-size: 14px;
     font-weight: 500;
 }
+.examples-section {
+    background-color: #f8fafc; 
+    padding: 2rem;
+    border-radius: 1rem;
+}
